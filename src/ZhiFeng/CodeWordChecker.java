@@ -9,4 +9,10 @@ public class CodeWordChecker implements StringChecker {
         this.max=max;
         this.symbol=symbol;
     }
+
+    public CodeWordChecker(String word){
+        this.min = 6;
+        this.max= 20;
+        this.word = word;
+    }
 }
